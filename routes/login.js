@@ -1,8 +1,7 @@
 const express = require('express');
-
 const router = express.Router()
 
-router.post('/', function (req, res) {
+router.get('/', function (req, res) {
     const data = {
         name: 'Mr.Wen',
         imgUrl: '', 
